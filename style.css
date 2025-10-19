@@ -1,0 +1,103 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f8f9fa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #004d40;
+      color: #fff;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    section {
+      padding: 60px 50px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      color: #004d40;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #555;
+    }
+
+    .skills, .projects, .certificates {
+      background: #fff;
+      border-radius: 10px;
+      padding: 40px;
+      margin-top: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h3.section-title {
+      color: #004d40;
+      margin-bottom: 20px;
+      border-left: 4px solid #ffcc00;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style: none;
+      margin-left: 20px;
+    }
+
+    ul li {
+      margin: 10px 0;
+    }
+
+    .project {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    a.contact-link {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: 500;
+    }
